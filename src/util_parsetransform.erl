@@ -1,7 +1,6 @@
 -module(util_parsetransform).
 -author("Konrad Gadek").
-%-export([parse_transform/2]).
--compile(export_all).
+-export([parse_transform/2]).
 
 %% I didn't reinvent the wheel. It's all here just a (re)implementation of ideas
 %% in EMP1 from this tutorial: http://readlists.com/4b363742
